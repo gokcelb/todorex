@@ -8,7 +8,7 @@ class Todo:
         self.due_date = due_date
         if self.due_date is not None:
             self.due_date = date.fromisoformat(due_date)
-        self.urgency = ""
+        self.urgency = " "
         self.id = id
         if self.id is None:
             self.id = uuid.uuid4().hex
